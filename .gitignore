@@ -1,0 +1,13 @@
+# Ignore everything except notebooks/ directory
+*
+!notebooks/
+!notebooks/**
+!.gitignore
+
+# But still ignore certain files within notebooks/
+notebooks/.ipynb_checkpoints/
+notebooks/**/.ipynb_checkpoints/
+notebooks/**/*.joblib
+notebooks/**/*.pkl
+notebooks/*.joblib
+notebooks/*.pkl
