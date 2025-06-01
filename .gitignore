@@ -3,6 +3,7 @@
 !notebooks/
 !notebooks/**
 !.gitignore
+!README.md
 
 # But still ignore certain files within notebooks/
 notebooks/.ipynb_checkpoints/
